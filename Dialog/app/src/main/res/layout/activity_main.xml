@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:hint="未选择"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="弹出列表" />
+    <Button
+        android:id="@+id/button_singlechioce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="弹出单选列表" />
+    <Button
+        android:id="@+id/button_multychioce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="弹出复选列表" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="弹出登录框"
+        android:id="@+id/button_login" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="托管对话框"
+        android:id="@+id/button_file_delete" />
+</LinearLayout>
